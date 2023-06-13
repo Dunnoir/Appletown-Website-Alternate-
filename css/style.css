@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700;900&display=swap');
+
+:root{
+    --black: #000;
+    --white: #fff;
+    --gray: #888;
+    --dark-gray: #333;
+    --light-gray: #CCC;
+    --light-gray2: #EEE;
+    --green: #16cf5d;
+    --green2: #00702B;
+    --green3: #0fb92c;
+    --green4: #c0ffc0;
+    --green5: #3ef766;
+}
+
+body{
+    font-family: "Jost", Arial, sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+h2{
+    font-weight: 200;
+    font-size: 32px;
+    text-transform: lowercase;
+    letter-spacing: -2px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+h6{
+    font-size: 15px;
+}
+.padded{
+    padding: 50px 50px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+::-webkit-scrollbar {
+    background: var(--light-gray2); 
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: var(--light-gray2); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--light-gray);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gray); 
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.navbar{
+    background-color: var(--green)!important;
+    transition-duration: 300ms;
+}
+
+.navbar a{
+    color: var(--white)!important;
+}
+
+.navbar ul{
+    align-items: center;
+}
+
+.nav-link{
+    color: var(--white)!important;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    color: var(--white);
+    width: 20%;
+}
+.navbar-brand:hover{
+    color: var(--white);
+}
+#products_h1, #shipping_h1, #providers_h1, #us_h1, #employees_h1, #brands_h1{
+    color: var(--green2);
+}
+.list-group{
+    margin-bottom: 20px;
+}
+.list-group-item{
+    text-align: left;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+.list-group-item.active{
+    background-color: var(--green);
+    border-color: var(--green);
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+.list-group-item:hover{
+    cursor: pointer;
+    background-color: var(--green);
+    border-color: var(--green);
+    color: var(--white);
+    transition-duration: 300ms;
+}
+#product_filters{
+    text-align: center;
+    justify-content: center;
+}
+#btnDel{
+    display: flex   ;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.rounded-pill{
+    position: absolute;
+    right: 10px;
+}
+
+#prices_limit{
+    justify-content: space-between;
+}
+
+.filter_btn{
+    background-color: var(--green2);
+    border-color: var(--green2);
+    margin-top: 20px;
+}
+.range_input{
+    position: relative;
+}
+.range_input input{
+    position: absolute;
+}
+#products_box{
+    padding: 0 50px;
+}
+.products_row{
+    justify-content: left;
+    margin: 50px 0;
+    transition-duration: 300ms;
+}
+
+.product{
+    align-content: center;
+    position: relative;
+    margin: 10px;
+    transition-duration: 300ms;
+}
+
+.product h5{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.product h6{
+    margin: 10px;
+}
+
+.precio-tachado{
+    color: var(--gray);
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.precio-dscto{
+    position: absolute;
+    background-color: var(--green2);
+    color: var(--white);
+    top: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 0px 5px 0px 10px;
+}
+
+footer{
+    background-color: var(--green2);
+    color: var(--white);
+}
